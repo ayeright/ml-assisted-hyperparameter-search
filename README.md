@@ -19,13 +19,13 @@ https://github.com/philferriere/dlwin.
     
 ## Usage
 
-1. You can run `python cnn_randomsearch_cifar10.py' to train and validate CNNs on the CIFAR-10 dataset, with hyperparameter values drawn randomly from pre-defined distributions. You must pass four input arguments in the following order:
+1. You can run `python cnn_randomsearch_cifar10.py` to train and validate CNNs on the CIFAR-10 dataset, with hyperparameter values drawn randomly from pre-defined distributions. You must pass four input arguments in the following order:
   * number of random search experiments 
   * number of CNNs to train in each experiment
   * maximum number of epochs for which to train each CNN
   * path to the directory where hyperparameter values and the corresponding validation results will be saved.
 
-2. You can run `python cnn_mlsearch_cifar10.py' to train and validate CNNs on the CIFAR-10 dataset, with hyperparameter values chosen using a random forest. The random forest is trained using results from random search trials to approximate the relationship between the hyperparameter values and the validation loss. The trained random forest is asked to predict the validation loss for 1,000,000 candidate hyperparameter set, drawn randomly from the same distributions as in random search. Those predicted to achieve the smallest loss are trained for real. You must pass four input arguments in the following order:
+2. You can run `python cnn_mlsearch_cifar10.py` to train and validate CNNs on the CIFAR-10 dataset, with hyperparameter values chosen using a random forest. The random forest is trained using results from random search trials to approximate the relationship between the hyperparameter values and the validation loss. The trained random forest is asked to predict the validation loss for 1,000,000 candidate hyperparameter set, drawn randomly from the same distributions as in random search. Those predicted to achieve the smallest loss are trained for real. You must pass four input arguments in the following order:
   * number of ML-assisted search experiments 
   * number of CNNs to train in each experiment
   * maximum number of epochs for which to train each CNN
