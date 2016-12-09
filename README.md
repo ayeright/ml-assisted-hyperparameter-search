@@ -9,12 +9,12 @@ Documentation
 
 ## Dependencies
 
-On Windows follow Phil Ferriere's guide to building a deep learning setup.
-https://github.com/philferriere/dlwin
+On Windows follow Phil Ferriere's guide to building a deep learning setup - 
+https://github.com/philferriere/dlwin.
 
 ## Installation
 
-1.  Clone this repo with `https://github.com/ayeright/ml-assisted-hyperparameter-search.git`.
+1.  Clone this repo with `git clone https://github.com/ayeright/ml-assisted-hyperparameter-search.git`.
 2.  Switch to the repo folder with `cd ml-assisted-hyperparameter-search`.
     
 ## Usage
