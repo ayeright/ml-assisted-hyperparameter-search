@@ -301,26 +301,4 @@ if __name__ == '__main__':
     else:
         print("Four input arguments required. "
                 "Aborting.")
-        sys.exit(-1)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        sys.exit(-1)    
