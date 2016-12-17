@@ -2,7 +2,7 @@
 
 Overview
 ---------------------
-Using a random forest to optimise convolutional neural network (CNN) hyperparameters on the famous CIFAR-10 image dataset. 
+Using a random forest to optimise convolutional neural network (CNN) hyperparameters on the famous CIFAR-10 image dataset, as described in the PDF document in this repo.
 
 Documentation
 ---------------------
